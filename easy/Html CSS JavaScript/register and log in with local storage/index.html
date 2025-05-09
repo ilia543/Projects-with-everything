@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Registration & Login System</h1>
+
+
+        <div id="register-form" class="form-container">
+            <h2>Register</h2>
+            <form id="registerForm">
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="password">Password:</label><br>
+                <input type="password" id="password" name="password" required><br><br>
+
+                <button type="submit">Register</button>
+            </form>
+            <p>Already have an account? <a href="#" onclick="toggleForm('login')">Login here</a></p>
+        </div>
+
+
+        <div id="login-form" class="form-container" style="display: none;">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="loginEmail">Email:</label><br>
+                <input type="email" id="loginEmail" name="email" required><br><br>
+
+                <label for="loginUsername">Username:</label><br>
+                <input type="text" id="loginUsername" name="username" required><br><br>
+
+                <label for="loginPassword">Password:</label><br>
+                <input type="password" id="loginPassword" name="password" required><br><br>
+
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="#" onclick="toggleForm('register')">Register here</a></p>
+        </div>
+
+
+        <div id="success-message" style="display: none;">
+            <h2>Welcome, <span id="user-name"></span>!</h2>
+            <p>You have successfully logged in.</p>
+            <button onclick="logout()">Logout</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

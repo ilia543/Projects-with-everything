@@ -1,0 +1,71 @@
+#guessthenumb{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px black;
+    transition: 0.5s;
+    left: 15%;
+}
+#guessthenumb:hover{
+    box-shadow: none;
+}
+#picnumb{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 25px;
+    top: 25px;
+}
+
+
+
+
+
+#tictactoe{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px black;
+    transition: 0.5s;
+    left: 45%;
+}
+#tictactoe:hover{
+    box-shadow: none;
+}
+#pictac{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 25px;
+    top: 25px;
+}
+
+
+
+
+
+
+#quizgame{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px black;
+    transition: 0.5s;
+    left: 75%;
+}
+#quizgame:hover{
+    box-shadow: none;
+}
+#picquiz{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 25px;
+    top: 25px;
+}

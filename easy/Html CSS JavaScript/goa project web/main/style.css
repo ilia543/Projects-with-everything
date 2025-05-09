@@ -1,0 +1,269 @@
+body{
+    background-color: rgb(14, 14, 14);
+}
+.navbar {
+    position: fixed;
+    width: 96%;
+    margin-left: 4px;
+    background-color: black;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px white;
+    z-index: 1;
+}
+.navbar a {
+    color: green;
+    text-decoration: none;
+    margin: 0 30px;
+    font-size: 18px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px rgb(111, 255, 74);
+    transition: 0.5s;
+}
+.navbar a:hover {
+    color: lightgreen;
+    text-shadow: none;
+    font-size: 25px;
+}
+
+#goainfo{
+    position: absolute;
+    left: 20%;
+    top: 200px;
+    height: 350px;
+    width: 60%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px lightgreen;
+    color: white;
+    overflow: hidden;
+}
+
+#goamainimg{
+    position: absolute;
+    border-radius: 20px;
+    left: 3%;
+    top: 15%;
+    box-shadow: 2px 2px 20px green;
+}
+
+#goamaininfo{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+
+#goamainfb{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+}
+
+#goamainfbbutton{
+    border-radius: 10px;
+    box-shadow: 3px 3px 0px lightgreen;
+    width: 140px;
+    height: 25px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+#goamainfbbutton:hover{
+    box-shadow: none;
+    background-color: lightgreen;
+}
+
+#WebDeveloping{
+    position: absolute;
+    left: 20%;
+    top: 700px;
+    height: 350px;
+    width: 60%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px lightgreen;
+    color: white;
+    overflow: hidden;
+}
+
+.courseImgs{
+    position: absolute;
+    border-radius: 20px;
+    left: 3%;
+    top: 15%;
+    box-shadow: 2px 2px 20px green;
+}
+
+#webinfo{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+
+#webmentors{
+    position: absolute;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 230px;
+}
+
+#webmentors p{
+    margin: 0 20px;
+    height: 20px;
+    transition: 0.5s;
+}
+
+#webmentors p:hover{
+    font-size: 22px;
+    color: rgb(0, 255, 0);
+    text-shadow: 2px 2px 5px lightgreen;
+}
+
+#webmentors1{
+    position: absolute;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    left: 4%;
+    border-radius: 20px;
+    margin-top: 290px;
+}
+
+#webmentors1 p{
+    margin: 0 20px;
+    height: 20px;
+    transition: 0.5s;
+}
+
+#webmentors1 p:hover{
+    font-size: 22px;
+    color: rgb(0, 255, 0);
+    text-shadow: 2px 2px 5px lightgreen;
+}
+
+
+#AlgorithmsAndAI{
+    position: absolute;
+    left: 20%;
+    top: 1200px;
+    height: 350px;
+    width: 60%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px lightgreen;
+    color: white;
+    overflow: hidden;
+}
+
+#AIimge{
+    position: absolute;
+    border-radius: 20px;
+    left: 3%;
+    top: 15%;
+    box-shadow: 2px 2px 20px green;
+}
+
+#AIinfo{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+
+#IAmentor{
+    position: absolute;
+    font-size: 25px;
+    left: 5%;
+    top: 70%;
+    transition: 0.5s;
+}
+
+#IAmentor:hover{
+    font-size: 30px;
+    color: rgb(0, 255, 0);
+    text-shadow: 2px 2px 5px lightgreen;
+}
+
+#RoboticCourse{
+    position: absolute;
+    left: 20%;
+    top: 1700px;
+    height: 350px;
+    width: 60%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px lightgreen;
+    color: white;
+    overflow: hidden;
+}
+
+#Roboticinfo{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+
+#RoboticMentor{
+    position: absolute;
+    font-size: 25px;
+    left: 5%;
+    top: 70%;
+    transition: 0.5s;
+}
+
+#RoboticMentor:hover{
+    font-size: 30px;
+    color: rgb(0, 255, 0);
+    text-shadow: 2px 2px 5px lightgreen;
+}
+
+
+#GameDeveloping{
+    position: absolute;
+    left: 20%;
+    top: 2200px;
+    height: 350px;
+    width: 60%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px lightgreen;
+    color: white;
+    overflow: hidden;
+}
+
+#gamedevinfo{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+
+#gamedevmentors{
+    position: absolute;
+    font-size: 25px;
+    left: 5%;
+    top: 70%;
+    transition: 0.5s;
+}
+
+#gamedevmentors:hover{
+    font-size: 30px;
+    color: rgb(0, 255, 0);
+    text-shadow: 2px 2px 5px lightgreen;
+}
+
+
+#MartialArts{
+    position: absolute;
+    left: 20%;
+    top: 2700px;
+    height: 350px;
+    width: 60%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 30px lightgreen;
+    color: white;
+    overflow: hidden;
+}
+#martialinfo{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
