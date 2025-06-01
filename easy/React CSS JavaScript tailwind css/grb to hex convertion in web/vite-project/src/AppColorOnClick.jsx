@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { useEffect } from 'react';
+// import { useEffect } from 'react';
 import { useRef } from 'react';
-import './AppColorOnClick.css'
+import './App.css'
 
 function AppColorOnClick(){
     const [r, setr] = useState(0)

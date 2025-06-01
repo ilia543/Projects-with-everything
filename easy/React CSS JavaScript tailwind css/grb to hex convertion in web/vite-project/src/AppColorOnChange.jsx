@@ -1,7 +1,7 @@
 import { useState } from 'react'
 // import { useEffect } from 'react';
 import { useRef } from 'react';
-// import './AppColorOnChange.css'
+import './App.css'
 
 function AppColorOnChange(){
     const [r, setr] = useState(0)
